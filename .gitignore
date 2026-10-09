@@ -1,0 +1,49 @@
+# Android / Gradle: generated outputs and local caches
+.gradle/
+.kotlin/
+**/build/
+out/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.hprof
+*.log
+
+# IDE and editor local state
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+!.env.sample
+*.jks
+*.keystore
+*.p12
+*.pfx
+keystore.properties
+signing.properties
+service-account*.json
+firebase-adminsdk*.json
+
+# macOS / Windows metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100/
+.Trashes/
+Thumbs.db
+Desktop.ini
+
+# Keep Gradle wrapper, sources, resources, tests and documentation tracked.

@@ -1,0 +1,2 @@
+# Local mock JSON models use Gson reflection; preserve their field names and constructors.
+-keep class com.safeflow.app.features.**.domain.** { *; }
